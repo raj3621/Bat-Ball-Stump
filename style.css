@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(105, 170, 151);
+}
+.choice-button{
+    height: 120px;
+    width: 120px;
+    border: none;
+    margin: 10px;
+    background-color: rgb(39, 246, 35);
+    border-radius: 60px;
+    cursor: pointer;
+}
+.choice-image{
+    height: 85px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin: auto;
+}
+
+#bl{
+width: 88px;
+height: 83px;
+}
+#st{
+width: 75px;
+height: 95px;
+margin: auto;
+}
+.choice-button:active{
+    background-color: rgb(22, 66, 212);
+}
+#reset{
+    background-color: rgb(39, 246, 35);
+    border: none;
+    width: 83px;
+    height: 35px;
+    border-radius: 50px;
+}
+#reset:active{
+    background-color: rgb(22, 66, 212);
+}
